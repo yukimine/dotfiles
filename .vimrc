@@ -59,6 +59,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'editorconfig/editorconfig-vim'
 
 " =====
 " colorscheme
