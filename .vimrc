@@ -12,6 +12,11 @@ filetype plugin indent off
 " シンタックスを有効にする
 syntax on
 
+" 文字コードを設定する
+set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos,mac
+
 " 行番号を表示する
 set number
 " 不可視文字を表示する
