@@ -11,9 +11,3 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-
-# =====
-# PROMPT
-# =====
-PROMPT="%F{cyan}[%n@%m %d]%f
-(๑˃̵ᴗ˂̵)و> "
