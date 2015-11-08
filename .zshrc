@@ -15,3 +15,15 @@ fi
 # エイリアス
 # =====
 alias vir='vim -R'
+
+# =====
+# .zshrcを分割
+# 参考：http://d.hatena.ne.jp/dgdg/20071127/1196179056
+# =====
+ZSHHOME="${HOME}/dotfiles/.zsh"
+
+if [ -d $ZSHHOME -a -r $ZSHHOME -a -x $ZSHHOME ]; then
+  for i in $ZSHHOME/*; do
+    [[ ${i##*/} = *.zsh ]] && [ \( -f $i -o -h $i \) -a -r $i ] && . $i
+  done
+fi

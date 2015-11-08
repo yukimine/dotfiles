@@ -1,3 +1,5 @@
 .vim/*
 !.vim/bundle/neobundle.vim
 !.vim/bundle/vim-hybrid
+
+.zsh/*.zsh
