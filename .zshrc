@@ -12,13 +12,13 @@ fi
 
 # Customize to your needs...
 # =====
-# $B%(%$%j%"%9(B
+# エイリアス
 # =====
 alias vir='vim -R'
 
 # =====
-# .zshrc$B$rJ,3d(B
-# $B;29M!'(Bhttp://d.hatena.ne.jp/dgdg/20071127/1196179056
+# .zshrcを分割
+# 参考：http://d.hatena.ne.jp/dgdg/20071127/1196179056
 # =====
 ZSHHOME="${HOME}/dotfiles/.zsh"
 
