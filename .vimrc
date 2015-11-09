@@ -76,6 +76,9 @@ let NERDTreeShowHidden = 1
 " デフォルトでツリーを表示させる
 " autocmd VimEnter * execute 'NERDTree'
 
+" trでツリーを表示／非表示
+nnoremap <silent>tr :NERDTreeToggle<CR>
+
 " =====
 " おまじない
 " =====
