@@ -7,4 +7,6 @@ git submodule update -i
 
 cd ~/.zprezto
 git submodule update -i
+
+touch ~/dotfiles/.zsh/test.zsh
 ```
