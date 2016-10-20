@@ -15,6 +15,8 @@ fi
 # エイリアス
 # =====
 alias vir='vim -R'
+alias nkfg='nkf -g'
+alias fig='find . -type f -print | xargs grep'
 
 # =====
 # .zshrcを分割
