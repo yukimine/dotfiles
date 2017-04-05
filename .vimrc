@@ -71,6 +71,9 @@ NeoBundle 'Shougo/vimproc.vim', {
 \    },
 \ }
 
+" Go
+NeoBundle 'fatih/vim-go'
+
 " =====
 " colorscheme
 " =====
@@ -88,6 +91,13 @@ let NERDTreeShowHidden = 1
 
 " trでツリーを表示／非表示
 nnoremap <silent>tr :NERDTreeToggle<CR>
+
+" =====
+" vim-go
+" =====
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
 
 " =====
 " おまじない
