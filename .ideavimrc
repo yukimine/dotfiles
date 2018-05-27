@@ -1,0 +1,2 @@
+" キーマップを読み込む
+source ~/dotfiles/.vimrc.keymap

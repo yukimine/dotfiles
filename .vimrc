@@ -9,6 +9,9 @@ filetype plugin indent off
 " =====
 " 基本設定
 " =====
+" キーマップを読み込む
+source ~/dotfiles/.vimrc.keymap
+
 " シンタックスを有効にする
 syntax on
 
@@ -37,9 +40,6 @@ set softtabstop=0
 set mouse=a
 " スワップファイルを作成しない
 set noswapfile
-
-" jkを<Esc>にマップする
-inoremap jk  <Esc>
 
 " =====
 " NeoBundle

@@ -8,6 +8,11 @@ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -snf ~/dotfiles/.vim ~/.vim
 
 # =====
+# IntelliJ IDEA
+# =====
+ln -sf ~/dotfiles/.ideavimrc ~/.ideavimrc
+
+# =====
 # Zsh
 # =====
 for rcfile in ~/dotfiles/.zprezto/runcoms/^README.md(.N); do
