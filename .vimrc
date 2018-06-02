@@ -17,7 +17,7 @@ syntax on
 
 " 文字コードを設定する
 set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileencodings=utf-8,euc-jp,sjis,iso-2022-jp
 set fileformats=unix,dos,mac
 
 " 行番号を表示する
