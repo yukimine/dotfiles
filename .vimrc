@@ -40,6 +40,8 @@ set softtabstop=0
 set mouse=a
 " スワップファイルを作成しない
 set noswapfile
+" ハイライトを有効にする
+set hlsearch
 
 " =====
 " NeoBundle
