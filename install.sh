@@ -13,6 +13,11 @@ ln -snf ~/dotfiles/.vim ~/.vim
 ln -sf ~/dotfiles/.ideavimrc ~/.ideavimrc
 
 # =====
+# Xcode
+# =====
+ln -sf ~/dotfiles/.xvimrc ~/.xvimrc
+
+# =====
 # Zsh
 # =====
 for rcfile in ~/dotfiles/.zprezto/runcoms/^README.md(.N); do

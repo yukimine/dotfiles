@@ -1,0 +1,2 @@
+" jkを<Esc>にマップする
+inoremap jk  <Esc>
