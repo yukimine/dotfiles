@@ -17,6 +17,7 @@ fi
 alias vir='vim -R'
 alias nkfg='nkf -g'
 alias fig='find . -type f -print | xargs grep'
+alias copy-branch='git symbolic-ref --short HEAD | tr -d "\n" | pbcopy'
 
 # =====
 # .zshrcを分割
