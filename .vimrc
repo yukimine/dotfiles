@@ -42,6 +42,9 @@ set mouse=a
 set noswapfile
 " ハイライトを有効にする
 set hlsearch
+" バックスペースで削除できるものを指定する
+" （デリートキーが効かない問題の対策）
+set backspace=indent,eol,start
 
 " =====
 " NeoBundle
